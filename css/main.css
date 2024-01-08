@@ -119,7 +119,7 @@ main form button{
 }
 
 main form button{
-    background-color: #008a00;
+    background-color: #e77a2c;
     color: white;
     padding: 8px 0;
     border: none;
@@ -128,7 +128,7 @@ main form button{
 }
 
 main form button:hover{
-    background-color: #006400;
+    background-color: #c96b28;
 }
 
 #phone-type{
@@ -170,4 +170,21 @@ footer ul{
 footer ul img{
     height: 32px;
     margin-left: 8px;
+}
+
+.alert{
+    text-align: center;
+}
+
+.alert h2{
+    font-size: 28px;
+}
+
+.alert img{
+    height: 256px;
+    margin: 16px;
+}
+
+.alert p{
+    font-size: 18px;
 }
