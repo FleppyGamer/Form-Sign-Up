@@ -1,5 +1,5 @@
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #F5DEB3;
+    background-image: url("a-coach.jpg");
 }
 
 header,
@@ -28,6 +28,11 @@ footer{
     display: flex;
 }
 
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+}
+
 main{
     padding: 64px 0;
 }
@@ -41,9 +46,9 @@ main > .container{
 
 h2{
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .form-container,
@@ -59,7 +64,7 @@ main form button{
 
 main form label,
 main form button{
-    font-weight: 500;
+    font-weight: 700;
 }
 
 main form label{
@@ -73,8 +78,16 @@ main form button{
 }
 
 main form button{
-    cursor: pointer;
+    background-color: #008a00;
+    color: white;
+    padding: 8px 0;
+    border: none;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+main form button:hover{
+    background-color: #006400;
 }
 
 footer{
