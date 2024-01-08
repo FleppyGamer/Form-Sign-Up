@@ -8,15 +8,6 @@ $(document).ready(function(){
         placeholder : 'Selecione uma das opções de telefone acima'
     })
 
-    $('#phone').on("click",function(){
-        $('#phone-type').slideDown();
-    })
-
-    
-    $('#phone').on("keypress",function(){
-        $('#phone-type').slideUp();
-    })
-
     $('.cellphone').click(function(){
         $('.cellphone').attr("class","cellphone selected");
         $('.telephone').attr("class","telephone");
@@ -69,6 +60,10 @@ $(document).ready(function(){
             address: 'Coloque um endereço válido',
             postalCode: 'Coloque um CEP válido'
         },
+        submitHandler: function(e){
+            open()
+        }
     })
+    
 })
 
