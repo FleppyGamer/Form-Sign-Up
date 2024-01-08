@@ -41,11 +41,13 @@ footer > .container{
 .hamburger-menu span{
     display: block;
     background-color: white;
+    width: 100%;
     height: 2px;
     margin-bottom: 4px;
 }
 
 nav{
+    display: none;
     background-color: #c96b28;
     width: 100%;
     padding: 16px;
@@ -127,6 +129,32 @@ main form button{
 
 main form button:hover{
     background-color: #006400;
+}
+
+#phone-type{
+    display: none;
+    background-color: rgba(177, 177, 177, 0.5);
+    padding: 4px;
+    margin: 4px 0;
+    border-radius: 6px;
+}
+
+.cellphone,
+.telephone{
+    background-color: #DC143C;
+    width: 20%;
+    margin-right: 12px;
+}
+
+.selected,
+.cellphone:hover,
+.telephone:hover{
+    background-color: #a1102d;
+}
+
+.error{
+    color: red;
+    font-weight: 400;
 }
 
 footer{
