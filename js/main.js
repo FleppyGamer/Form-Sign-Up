@@ -61,7 +61,7 @@ $(document).ready(function(){
             postalCode: 'Coloque um CEP válido'
         },
         submitHandler: function(e){
-            open()
+            open("welcome.html")
         }
     })
     
