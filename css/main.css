@@ -10,22 +10,61 @@ body{
     background-image: url("a-coach.jpg");
 }
 
-header,
-footer{
-    background-color: #DC143C;
-    color: white;
-    padding: 12px 0;
-}
-
 .container{
-    justify-content: space-between;
-    align-items: center;
     max-width: 1024px;
     margin: auto;
 }
 
 .container-flex{
     display: flex;
+}
+
+header,
+footer{
+    background-color: #DC143C;
+    color: white;
+    padding-top: 12px;
+}
+
+header > .container,
+footer > .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.hamburger-menu{
+    width: 32px;
+    cursor: pointer;
+}
+
+.hamburger-menu span{
+    display: block;
+    background-color: white;
+    height: 2px;
+    margin-bottom: 4px;
+}
+
+nav{
+    background-color: #c96b28;
+    width: 100%;
+    padding: 16px;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    margin-right: 24px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
 }
 
 h1{
@@ -95,6 +134,7 @@ footer{
     bottom: 0;
     width: 100%;
     align-items: center;
+    padding-bottom: 12px;
 }
 
 footer ul{
